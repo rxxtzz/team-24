@@ -1,0 +1,9 @@
+exclude = [
+    "http://localhost.*",
+    "https://gitlab.com/.*/pipelines.*",
+]
+
+retry_wait = 30
+max_retries = 3
+
+accept = ["https?://.+"]
